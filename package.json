@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pooh15/candy_project/issues"
   },
-  "homepage": "https://github.com/Pooh15/candy_project#readme"
+  "homepage": "https://github.com/Pooh15/candy_project#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
 }
