@@ -1,0 +1,19 @@
+{
+  "name": "candy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pooh15/candy_project.git"
+  },
+  "author": "Prasanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pooh15/candy_project/issues"
+  },
+  "homepage": "https://github.com/Pooh15/candy_project#readme"
+}
