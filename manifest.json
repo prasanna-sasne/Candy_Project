@@ -8,7 +8,7 @@
   "theme_color": "#2A3443",
   "icons": [
     {
-      "src": "./imgs/cookie.jpg",
+      "src": "imgs/cookie.jpg",
       "sizes": "800x800",
       "type": "image/png"
     }
