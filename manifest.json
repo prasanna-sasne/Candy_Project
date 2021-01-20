@@ -11,6 +11,11 @@
       "src": "imgs/candy.png",
       "sizes": "466x466",
       "type": "image/png"
+    },
+    {
+      "src": "./imgs/candy2.png",
+      "sizes": "200x200",
+      "type": "image/png"
     }
   ]
 }
