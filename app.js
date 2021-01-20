@@ -1,17 +1,16 @@
-let express = require('express');
-let app = express();
-let path = require('path');
-let port = process.env.PORT || 3000;
-
-//app.use(express.static('public'))
-app.use(express.static(__dirname + '/public'));
-
-app.get('/', function( req, res ){
-    res.sendFile( path.join( __dirname + "/public/index.html" ) );
+window.addEventListener('load', e => {
+ // new PWACandy();
+  registerSW(); 
 });
 
-app.listen( port, function(){
-    console.log("***********************************************************************");
-    console.log(" Server listening on port : " + port );
-    console.log("***********************************************************************");
-});
+async function registerSW() { 
+  if ('serviceWorker' in navigator) { 
+    try {
+      await navigator.serviceWorker.register('./sw.js'); 
+    } catch (e) {
+      alert('ServiceWorker registration failed. Sorry about that.'); 
+    }
+  } else {
+    document.querySelector('.alert').removeAttribute('hidden'); 
+  }
+}

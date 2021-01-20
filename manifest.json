@@ -1,0 +1,16 @@
+{
+  "name": "PWACandy",
+  "short_name": "PWACandy",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2A3443",
+  "description": "A demo app for a Cookies Display",
+  "theme_color": "#2A3443",
+  "icons": [
+    {
+      "src": "./imgs/cookie.jpg",
+      "sizes": "800x800",
+      "type": "image/png"
+    }
+  ]
+}
